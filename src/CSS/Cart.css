@@ -1,0 +1,33 @@
+.cart{
+    display: block;
+    width: 20.5rem;
+    height: auto;
+    background-color: rgb(252, 221, 252);
+    max-height: 30rem;
+    position: absolute;
+    z-index: 4;
+    right:8rem;
+    top: 4rem;
+    overflow: scroll;
+}
+.cart::-webkit-scrollbar{
+    
+    width: 0.5rem;
+}
+.cart::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 10px;
+}
+.cart::-webkit-scrollbar-corner{
+    display: none;
+}
+
+.total{
+    background-color:darkmagenta;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    
+}

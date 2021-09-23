@@ -1,0 +1,38 @@
+.cartItem{
+    height:10rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    background-color: fuchsia;
+}
+
+.cartItemImg{
+    height: 10rem;
+    overflow: hidden;
+    width: 10rem;    
+    position: relative;
+}
+.cartItemImg>img{
+    height: 10rem;
+    width: 10rem;
+    
+}
+.cartItemText{
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    position: relative;
+}
+.price{
+    position:absolute;
+    background-color: red;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    height: 2rem;
+    line-height: 2rem;
+}

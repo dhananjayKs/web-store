@@ -1,0 +1,13 @@
+.page{
+    position: absolute;
+    top: 4rem;
+    left: 20%;
+    right: 0%;
+    bottom: 0%;
+    overflow: scroll;
+    background-color: blueviolet;
+    
+}
+.page::-webkit-scrollbar {
+    display: none;
+  }

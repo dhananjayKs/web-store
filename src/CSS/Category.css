@@ -1,0 +1,14 @@
+.category{
+    display: inline-block;
+    position: absolute;
+    top: 4rem;
+    bottom: 0%;
+    width:20%;
+    padding-top: 1rem;
+    background-color: aqua;
+    z-index: -1;
+    overflow: scroll;
+}
+.category::-webkit-scrollbar {
+    display: none;
+  }
